@@ -1,0 +1,36 @@
+{
+    "name": "express-boilerplate",
+    "version": "0.0.1",
+    "description": "Express boilerplate with es6 module support",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index",
+        "watch": "nodemon ./index"
+    },
+    "keywords": [
+        "web",
+        "framework",
+        "express",
+        "module",
+        "boilerplate"
+    ],
+    "author": {
+        "name": "Hexen Qi",
+        "email": "hexenq@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "compression": "^1.7.3",
+        "esm": "^3.0.79",
+        "express": "^4.16.3",
+        "fs-extra": "^7.0.0",
+        "lodash": "^4.17.10",
+        "morgan": "^1.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.3"
+    },
+    "engines": {
+        "node": ">=8.3.0"
+    }
+}
