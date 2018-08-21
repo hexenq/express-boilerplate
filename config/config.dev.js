@@ -1,3 +1,3 @@
 export default {
-    env: 'dev'
+    env: 'development'
 }
